@@ -32,7 +32,7 @@
 
         div.innerHTML = `<button style="background: #2563eb; color: white; padding: 15px 20px; border: none; border-radius: 5px; cursor: pointer;">Смотреть онлайн</button>`;
         div.className = `watch_button`;
-        div.onclick = function() {location.href=`https://sspoisk.ru${location.pathname}`};
+        div.onclick = function() {location.href=`https://kinokino.win${location.pathname}`};
 
         container.append(div);
     }
