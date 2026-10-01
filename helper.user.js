@@ -14,12 +14,12 @@
 
     function createButton()
     {
-        if (document.querySelector('.watch_button'))
+        if(document.querySelector('.watch_button'))
         {
             return;
         }
 
-        let container = document.querySelector('[class^="styles_buttonsContainer__"]');
+        const container = document.querySelector('[class^="styles_buttonsContainer__"]');
 
         //console.log(container);
 
@@ -28,7 +28,7 @@
             return;
         }
 
-        let div = document.createElement("div");
+        const div = document.createElement("div");
 
         div.innerHTML = `<button style="background: #2563eb; color: white; padding: 15px 20px; border: none; border-radius: 5px; cursor: pointer;">Смотреть онлайн</button>`;
         div.className = `watch_button`;
